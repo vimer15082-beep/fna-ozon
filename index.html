@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Nights at Ozon - Поддержка</title>
+    <style>
+        /* Общие стили в стиле хоррора */
+        body {
+            background-color: #0b0c10;
+            color: #c5c6c7;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Главный контент (теперь занимает весь экран) */
+        .main-content {
+            width: 100%;
+            padding: 40px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, #0b0c10 0%, #12161a 100%);
+        }
+
+        .main-content h1 {
+            color: #ff3333;
+            font-size: 2.8rem;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px rgba(255, 51, 51, 0.5);
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            color: #66fcf1;
+            font-size: 1.3rem;
+            margin-bottom: 35px;
+            letter-spacing: 1px;
+        }
+
+        .support-box {
+            background-color: #1f2833;
+            border: 2px solid #ff9000;
+            padding: 40px;
+            border-radius: 8px;
+            max-width: 550px;
+            width: 100%;
+            box-shadow: 0 0 25px rgba(255, 144, 0, 0.15);
+            box-sizing: border-box;
+        }
+
+        .support-box p {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        /* Кнопка DonationAlerts */
+        .btn-support {
+            display: inline-block;
+            background: linear-gradient(to right, #ff9000, #ff5500);
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 35px;
+            font-size: 1.15rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(255, 144, 0, 0.3);
+            letter-spacing: 1px;
+        }
+
+        .btn-support:hover {
+            background: linear-gradient(to right, #ffaa33, #ff7722);
+            box-shadow: 0 0 25px #ff9000;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ГЛАВНЫЙ БЛОК: ПОДДЕРЖКА НА ВЕСЬ ЭКРАН -->
+    <div class="main-content">
+        <h1>Five Nights at Ozon</h1>
+        <div class="subtitle">Официальная поддержка 1.0 BETA</div>
+        
+        <div class="support-box">
+            <p>
+                Добро пожаловать в центр поддержки разработки! Первая бета-версия уже доступна. 
+                Если вы хотите помочь проекту развиваться, ускорить выход обновлений 
+                или предложить свою идею — вы можете поддержать команду через DonationAlerts.
+            </p>
+            
+            <a href="https://donationalerts.com" class="btn-support" target="_blank">Донат через DonationAlerts</a>
+        </div>
+    </div>
+
+</body>
+</html>
